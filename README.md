@@ -1,73 +1,88 @@
-# Welcome to your Lovable project
+# Faldaara - Luxury Handcrafted Products
 
-## Project info
+Faldaara is a premium brand offering exquisite handcrafted products that blend traditional artisanship with modern design. Our website showcases our unique collection and allows customers to explore our world of artisanal luxury.
 
-**URL**: https://lovable.dev/projects/e2369465-3e47-48d2-a051-91d08579ee98
+## About Faldaara
 
-## How can I edit this code?
+Faldaara celebrates the beauty of handcrafted items, emphasizing:
 
-There are several ways of editing your application.
+- Ethically sourced materials
+- Traditional crafting techniques
+- Sustainable production methods
+- Cultural heritage and storytelling
+- Modern, elegant design
 
-**Use Lovable**
+## Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e2369465-3e47-48d2-a051-91d08579ee98) and start prompting.
+- Responsive design with elegant UI
+- Product browsing and filtering
+- Custom gifting options
+- Shopping cart functionality
+- Checkout process
+- User accounts
+- Brand story and values
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
+## Tech Stack
 
 This project is built with:
 
-- Vite
-- TypeScript
 - React
-- shadcn-ui
+- TypeScript
+- Vite
 - Tailwind CSS
+- shadcn/ui components
+- React Router
+- Lucide React icons
 
-## How can I deploy this project?
+## Getting Started
 
-Simply open [Lovable](https://lovable.dev/projects/e2369465-3e47-48d2-a051-91d08579ee98) and click on Share -> Publish.
+Follow these steps to set up the project locally:
 
-## Can I connect a custom domain to my Lovable project?
+1. **Clone the repository**
 
-Yes, you can!
+```bash
+git clone https://github.com/Rustix69/FaldaraLandingPage.git
+cd FaldaraLandingPage
+```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+2. **Install dependencies**
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+```bash
+npm install
+```
+
+3. **Start the development server**
+
+```bash
+npm run dev
+```
+
+4. **View the website**
+
+Open your browser and navigate to `http://localhost:5173` (or the port shown in your terminal).
+
+## Project Structure
+
+- `/src` - Source files
+  - `/components` - Reusable UI components
+  - `/pages` - Page components
+  - `/assets` - Static assets like images
+  - `/styles` - Global styles and Tailwind configuration
+  - `/lib` - Utility functions and hooks
+  - `/data` - Static data and mock APIs
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is proprietary and confidential. Unauthorized copying, redistribution, or use is prohibited.
+
+## Contact
+
+For any inquiries, please contact us at info@faldaara.com
