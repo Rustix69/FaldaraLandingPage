@@ -13,15 +13,13 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-faldaara-off-white">
       <Header />
-      <div className="pt-24">
-        <HeroSection />
-        <FeaturedProducts />
-        <BrandStory />
-        <BestSellers />
-        <GiftingExperience />
-        <OccasionsSection />
-        <CallToAction />
-      </div>
+      <HeroSection />
+      <FeaturedProducts />
+      <BrandStory />
+      <BestSellers />
+      <GiftingExperience />
+      <OccasionsSection />
+      <CallToAction />
       <Footer />
     </div>
   );

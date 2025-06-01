@@ -1,16 +1,52 @@
 
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Search, ShoppingCart, Menu, X } from 'lucide-react';
+import { Phone, Mail, MessageCircle, Search, ShoppingCart, Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 w-[95%] max-w-7xl">
-      <div className="bg-faldaara-off-white/95 backdrop-blur-md border border-faldaara-light-green/20 rounded-2xl shadow-lg px-6 py-4">
-        <div className="flex items-center justify-between">
+    <header className="sticky top-0 z-50 bg-faldaara-off-white border-b border-faldaara-light-green/20">
+      {/* Top Bar */}
+      <div className="border-b border-faldaara-light-green/10 py-2 px-4">
+        <div className="max-w-7xl mx-auto flex justify-between items-center text-sm">
+          <div className="flex items-center space-x-4">
+            <div className="flex items-center space-x-2 text-faldaara-dark-green">
+              <Phone size={14} />
+              <span className="hidden sm:inline">Call Us</span>
+            </div>
+            <div className="flex items-center space-x-2 text-faldaara-dark-green">
+              <MessageCircle size={14} />
+              <span className="hidden sm:inline">WhatsApp</span>
+            </div>
+            <div className="flex items-center space-x-2 text-faldaara-dark-green">
+              <Mail size={14} />
+              <span className="hidden sm:inline">Email message</span>
+            </div>
+          </div>
+          
+          <div className="text-center font-space text-faldaara-dark-green font-medium">
+            A HERITAGE OF EXCELLENCE SINCE 1956
+          </div>
+          
+          <div className="flex items-center space-x-4 text-sm">
+            <div className="flex items-center space-x-2">
+              <span className="hidden sm:inline">Ship To:</span>
+              <span className="text-faldaara-orange font-medium">🇮🇳</span>
+            </div>
+            <div className="flex items-center space-x-2">
+              <span className="hidden sm:inline">Currency:</span>
+              <span className="text-faldaara-orange font-medium">INR</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Main Navigation */}
+      <div className="px-4 py-4">
+        <div className="max-w-7xl mx-auto flex items-center justify-between">
           {/* Mobile Menu Button */}
           <button
             className="lg:hidden text-faldaara-dark-green"
