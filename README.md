@@ -2,6 +2,10 @@
 
 Faldaara is a premium brand offering exquisite handcrafted products that blend traditional artisanship with modern design. Our website showcases our unique collection and allows customers to explore our world of artisanal luxury.
 
+## Snapshots
+![image](https://github.com/user-attachments/assets/6877f79b-de49-453b-b24b-0bbdf6a7eea5)
+
+
 ## About Faldaara
 
 Faldaara celebrates the beauty of handcrafted items, emphasizing:
